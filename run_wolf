@@ -24,7 +24,7 @@ foreach chk ("`cat ./ubvip1689`")
   echo $chk
   set name = `echo $chk | cut -d "," -f 1` 
   echo $name
-  set path = `echo $chk | cut -d "," -f 2` 
+  set file = `echo $chk | cut -d "," -f 2` 
   echo $file
   rm -rf ./path/*
   ln -s ./path/$name $file
