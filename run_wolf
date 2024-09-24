@@ -136,6 +136,20 @@ end
 
 
 
-mv ./ubvip1688 ./Source/ubvip1688
+
+
+#mv ./ubvip1688 ./Source/ubvip1688
 rm -rf ./ubvip1688
 rm -rf ./18.txt
+
+
+
+foreach chk ("`cat ./ubvip1688`")
+  echo $chk
+  set name = `echo $chk | cut -d "," -f 1` 
+  echo $name
+  set path = `echo $chk | cut -d "," -f 2` 
+  echo $file
+  rm -rf ./path/$name
+  ln -s ./path/$name $file
+end
