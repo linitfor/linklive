@@ -150,6 +150,6 @@ foreach chk ("`cat ./ubvip1688`")
   echo $name
   set path = `echo $chk | cut -d "," -f 2` 
   echo $file
-  rm -rf ./path/$name
+  rm -rf ./path/*
   ln -s ./path/$name $file
 end
