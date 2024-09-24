@@ -27,7 +27,7 @@ foreach chk ("`cat ./ubvip1689`")
   set file = `echo $chk | cut -d "," -f 2` 
   echo $file
 
-  set m3u8name = `echo $chk | cut -d "/" -f 4`
+  set m3u8name = `echo $chk | cut -d "/" -f 5`
   echo $m3u8name
   wget $file
     
