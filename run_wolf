@@ -138,13 +138,13 @@ end
 
 
 
-#mv ./ubvip1688 ./Source/ubvip1688
-rm -rf ./ubvip1688
+#mv ./ubvip1688 ./Source/ubvip1689
+rm -rf ./ubvip1689
 rm -rf ./18.txt
 
 
 
-foreach chk ("`cat ./ubvip1688`")
+foreach chk ("`cat ./ubvip1689`")
   echo $chk
   set name = `echo $chk | cut -d "," -f 1` 
   echo $name
