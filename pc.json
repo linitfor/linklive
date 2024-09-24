@@ -10,7 +10,16 @@
       "changeable": 0,
       "ext": {}
     },
-   {"key":"N","name":"NETFLIX","type":1,"api":"https://linitfor.serv00.net/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories":["大陸劇","韓國劇","日本劇","台灣劇","歐美劇","大陸動漫","日韓動漫","台灣綜藝","日韓綜藝","電影","歐美綜藝","海外劇","紀錄片","其他綜藝","其他動漫"]},
+    
+    {
+      "key":"N",
+      "name":"NETFLIX",
+      "type":1,
+      "api":"https://linitfor.serv00.net/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1,
+      "categories":["大陸劇","韓國劇","日本劇","台灣劇","歐美劇","大陸動漫","日韓動漫","台灣綜藝","日韓綜藝","電影","歐美綜藝","海外劇","紀錄片","其他綜藝","其他動漫"]
+    },
 
     {
       "key": "BD",
